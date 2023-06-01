@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from './button';
-
 class Clock extends React.Component {
     state = { date: new Date(), locale: 'bn-BD' };
     componentDidMount() {
