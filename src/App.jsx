@@ -4,10 +4,10 @@ import Clock from './components/clock';
 
 function App() {
     const [count, setCount] = useState(0);
-
+    console.log('App component rendered');
     return (
         <>
-            <Clock locale="bn-BD" />
+            <Clock />
         </>
     );
 }
